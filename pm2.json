@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "yaudahlah-web",
+      "script": "yarn dev"
+    }
+  ]
+}
