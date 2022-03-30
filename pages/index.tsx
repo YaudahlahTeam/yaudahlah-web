@@ -57,9 +57,9 @@ const Home: NextPage = () => {
           </div>
           
         </div>
-        {/* <div className={"text-sm  w-full text-center mb-4"}>
+        <div className={"text-sm  w-full text-center mb-4"}>
             @2022 Yaudahlah Team, All Right Reserved.
-        </div> */}
+        </div>
       </div>
       
     </PageContainer>
