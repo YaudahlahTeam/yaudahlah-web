@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
       <div className="flex flex-col items-center z-0 md:mx-2 ">
-        <div className="pt-[100px] min-h-screen mx-10 max-width-component w-full px-4">
+        <div className="pt-[80px] min-h-screen mx-10 max-width-component w-full px-4">
           <div className="text-5xl font-medium underline">
             <p>#Yaudahlah Team</p>
           </div>
@@ -55,11 +55,13 @@ const Home: NextPage = () => {
               })
             }
           </div>
+          
         </div>
-        <div className={"text-sm fixed bottom-4 left-0 w-full text-center"}>
-          @2022 Yaudahlah Team, All Right Reserved.
-        </div>
+        {/* <div className={"text-sm  w-full text-center mb-4"}>
+            @2022 Yaudahlah Team, All Right Reserved.
+        </div> */}
       </div>
+      
     </PageContainer>
   )
 }
