@@ -1,0 +1,16 @@
+.max-width-component {
+  max-width: 1050px;  
+}
+
+.z-top {
+  z-index: 999;
+}
+.z-top-top {
+  z-index: 9999;
+}
+
+
+.line-break {
+  white-space: pre-wrap;
+}
+
