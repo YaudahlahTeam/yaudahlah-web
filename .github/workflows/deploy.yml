@@ -17,6 +17,7 @@ jobs:
           PORT: ${{ secrets.PORT }}
           PASSWORD: ${{ secrets.PASSWORD }}
           script: |
-            cd ~/kerjago/kerjago.com/scripts
+            cd ~/frontend/yaudahlah-web/scripts
             chmod +x deploy.sh
             ./deploy.sh
+            
